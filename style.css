@@ -1,1 +1,11 @@
+* {
+}
 
+body {
+    background-color: aquamarine;
+}
+
+header {
+    background-color: beige;
+    height: 4em;
+}
