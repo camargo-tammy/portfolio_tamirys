@@ -3,9 +3,17 @@
 
 body {
     background-color:#7796ca;
+    font-size: 16px;
+    color:black
 }
 
 header {
     background-color:#446a9b;
-    height: 4em;
+    height: 6em;
+}
+header h1{
+    text-align: center;
+}
+img{
+    width: 50%;
 }
