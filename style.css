@@ -22,11 +22,12 @@ header h1{
     background-color: #75a1ec;
 }
 img{
-    width: 10%;
+   max-width:  100%;
     border-radius: 30px;
+    height: auto;
 }
 main{
-    background-color: rgb(104, 128, 238);
+    background-color: rgb(75, 106, 243);
 }
 footer{
     background-color: #5f8cda;
