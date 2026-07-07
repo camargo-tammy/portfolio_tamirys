@@ -19,6 +19,7 @@ header {
 header h1{
     text-align: center;
     color: rgb(1, 0, 2);
+    background-color: #75a1ec;
 }
 img{
     width: 10%;
