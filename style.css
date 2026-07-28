@@ -62,12 +62,12 @@ section > div{
     margin: 2%;
 }
 
-ul{
+/* ul{
     list-style: none;
     gap: 20px;
     display: flex;
     justify-content: center;
-}
+} */
 
 li a {
     color: #f2f4f8
