@@ -32,6 +32,7 @@ img{
    max-width:  100%;
     border-radius: 30px;
     height: auto;
+    width: 50%;
 }
 
 main{
@@ -43,7 +44,7 @@ main{
 footer{
     margin-top: auto;
     text-align:center;
-    width: 100%
+    width: 100%;
     background-color: rgb(68, 97, 230);
 }
 
@@ -83,7 +84,7 @@ a:visited {
 @media (max-width: 480px){
     section{
         flex-direction: column;
-        margin 3%
+        margin: 3%;
         gap: 20px;
     }
 }
