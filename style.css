@@ -97,3 +97,12 @@ footer{
     }
 
 }
+.instagram-link {
+  color: #555;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.instagram-link:hover {
+  color: #E1306C; 
+}
