@@ -1,4 +1,9 @@
 * {
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    min-height: 100%;
 }
 
 body {
@@ -16,27 +21,75 @@ header {
     background-color:#5e9ae9;
     height: 6em;
 }
+
 header h1{
     text-align: center;
     color: rgb(55, 5, 105);
     background-color: #75a1ec;
 }
+
 img{
    max-width:  100%;
     border-radius: 30px;
     height: auto;
 }
+
 main{
     background-color: rgb(160, 176, 250);
     color: rgb(55, 0, 87);
     flex: 1;
 }
+
 footer{
-    background-color: #5f8cda;
+    margin-top: auto;
+    text-align:center;
+    width: 100%
+    background-color: rgb(68, 97, 230);
 }
+
 section{
     margin: 10%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 40px;
+}
+h2, h3{
+    padding: 10px;
+}
+section > div{
+    flex: 1;
+    margin: 2%;
+}
+
+ul{
+    list-style: none;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+li a {
+    color: #f2f4f8
+    text-decoration: none;
+    text-align: center;
+}
+a:hover{
+    color: #d2f04e;
+}
+a:visited {
+    color: #4dd6ad
+}
+@media (max-width: 480px){
+    section{
+        flex-direction: column;
+        margin 3%
+        gap: 20px;
+    }
+}
+@media (min-height: 481px) and (max-width: 1024px){
+    section{
+        margin: 3%;
+        gap: 5%;
+    }
 }
